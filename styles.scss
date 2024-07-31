@@ -382,6 +382,12 @@ body * {
       gap: 60px;
     }
   }
+
+  @media (max-width: 400px) {
+    .section-title{
+      background-size: 170px;
+    }
+  }
 }
 
 .extension {
@@ -538,6 +544,8 @@ body * {
       height: 214px;
     }
   }
+
+ 
 }
 
 .plan {
@@ -587,12 +595,17 @@ body * {
     .swiper2 {
       max-width: 471px;
     }
+
+    .article{
+      padding-left: 20px;
+      padding-right: 20px;
+    }
   }
 
   @media (max-width: 550px) {
     .article {
       width: 100%;
-      min-width: 300px;
+      min-width: 286px;
     }
   }
 }

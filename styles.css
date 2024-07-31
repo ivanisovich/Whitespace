@@ -329,6 +329,11 @@ body * {
     gap: 60px;
   }
 }
+@media (max-width: 400px) {
+  .teamwork .section-title {
+    background-size: 170px;
+  }
+}
 
 .extension {
   background: #043873;
@@ -502,11 +507,15 @@ body * {
   .plan .swiper2 {
     max-width: 471px;
   }
+  .plan .article {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 @media (max-width: 550px) {
   .plan .article {
     width: 100%;
-    min-width: 300px;
+    min-width: 286px;
   }
 }
 
