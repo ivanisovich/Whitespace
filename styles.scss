@@ -445,6 +445,12 @@ body * {
   @media (max-width: 980px) {
     .container {
       flex-direction: column;
+      text-align: center;
+    }
+
+    .section-title{
+      margin-left: auto;
+      margin-right: auto;
     }
 
     .extension__image {
@@ -453,6 +459,8 @@ body * {
     }
   }
   @media (max-width: 768px) {
+    
+
     .section-title{
       background-position-x: 100%;
       background-size: 260px;
@@ -531,11 +539,17 @@ body * {
   @media (max-width: 980px) {
     .container {
       flex-direction: column;
+      text-align: center;
     }
 
     .customise__image {
       width: 100%;
       max-width: 500px;
+    }
+
+    .section-title{
+      margin-left: auto;
+      margin-right: auto;
     }
   }
 
@@ -544,7 +558,6 @@ body * {
       height: 214px;
     }
   }
-
  
 }
 
@@ -726,6 +739,9 @@ body * {
       margin-right: 0px;
       max-width: 700px;
     }
+    .section-subtitle {
+      text-align: left;
+    }
 
     .button--whitespace {
       text-align: left;
@@ -737,9 +753,7 @@ body * {
       background-position-x: left;
     }
 
-    .section-subtitle {
-      text-align: left;
-    }
+   
   }
 }
 
@@ -784,10 +798,16 @@ body * {
     .container {
       flex-direction: column-reverse;
       gap: 100px;
+      text-align: center;
     }
 
     .data__image {
       max-width: 513px;
+    }
+
+    .section-title{
+      margin-left: auto;
+      margin-right: auto;
     }
   }
 }
@@ -858,6 +878,11 @@ body * {
   @media (max-width: 960px) {
     .container {
       flex-direction: column;
+      text-align: center;
+    }
+
+    .apps__text{
+      max-width: 728px;
     }
 
     .apps__image {
