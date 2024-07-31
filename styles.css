@@ -147,7 +147,9 @@ body * {
 .hero {
   background: #043873;
   background-image: url("./images/Element2.png");
+  background-repeat: no-repeat;
   color: white;
+  background-position-y: calc(100% - 90px);
 }
 .hero .container {
   display: flex;
