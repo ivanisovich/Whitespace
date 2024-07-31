@@ -254,6 +254,11 @@ body * {
     width: 100%;
     max-width: 500px;
   }
+  .managment .section-title {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 @media (max-width: 600px) {
   .managment .managment__image {
@@ -376,6 +381,12 @@ body * {
   .extension .extension__image {
     width: 100%;
     max-width: 500px;
+  }
+}
+@media (max-width: 768px) {
+  .extension .section-title {
+    background-position-x: 100%;
+    background-size: 260px;
   }
 }
 @media (max-width: 600px) {
